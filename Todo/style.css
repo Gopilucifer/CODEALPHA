@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    font-family: 'poppins', sans-serif;   
+}
+html{
+    min-height: 100vh;
+    background-image:  linear-gradient(rgba(0, 0, 0, 00.7), rgba(0, 0, 0, 00.7)),url(images/Porschee\ 911\ GT3\ RS.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#wrapper h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #fff;
+}
+
+input{
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-top: 30px;
+    height: 2em;
+    width: 250px;
+    padding-left: 10px;
+}
+
+input:active{
+    border: none;
+    color: #fff;
+}
+
+#add{
+    width: 50px;
+    height: 2em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#add:hover{
+    scale: 1.1;
+    box-shadow: 0 0 1rem var(#000);
+}
+
+#wrapper{
+    height: 350px;
+    width: 350px;
+    margin: 60px auto;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
